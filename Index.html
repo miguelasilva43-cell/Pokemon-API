@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="top-carousel">
+        <img src="Logo1.jpg">
+        <img src="Logo2.jpg">
+    </div>
+
+    <div class="container">
+        <input type="text" 
+               class="search-input"
+               placeholder="🔍Pesquisar por nome ou número"
+               onkeyup="pesquisarPokemon(this.value)">
+
+        <div id="pokedex" class="pokedex"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
